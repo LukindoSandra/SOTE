@@ -18,4 +18,13 @@
                     <option value="Thin">THIN </option>
                      <option value="Deep">DEEP </option>
                 </select><br><br>
+                 <label>Pizza Topping;</label>
+                <select class="form-control" id="topping">
+                    <option>SELECT PIZZA TOPPING </option><br>
+                    <option value="Pepperoni">PEPPERONI </option>
+                    <option value="Sausage">SAUSAGE </option>
+                    <option value="Mushrooms">MUSHROOMS </option>
+                     <option value="Onions">ONIONS </option>
+
+                </select><br><br>
                 
