@@ -12,7 +12,7 @@ Assignment on Pizza Inn
  > I really had a difficult moment in the JavaScript though at the end of it all i managed to do it.
  
  ## LINK TO LIVE SITE
- > click [HERE]()
+ > click [HERE](https://github.com/LukindoSandra/SOTE/tree/master)
  
  ## TECHNOLOGIES USED
  > I used html ,css ,bootstrap and Js where by i consulted from my pair partner and from the website.
