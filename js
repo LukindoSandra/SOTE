@@ -27,4 +27,18 @@
                      <option value="Onions">ONIONS </option>
 
                 </select><br><br>
-                
+                  <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost"
+                value="Check Out!!!">
+            </form>
+             <div id="textPrice">
+                <P id="tc">Total Cost</P>
+            </div>
+            <button id="delivery" type="button" class="btn btn-warning btn-rounded waves-effect btn-lg">Delivery</button>
+9:16
+var totalCosts = [];
+function order(size, crust, Topping,){
+    this.size = size;
+    this.crust = crust;
+    this.Topping = Topping;
+    this.price = 0;
+}
