@@ -1,0 +1,125 @@
+  html {
+    font-family: "Roboto";
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    text-align: center;
+    font-family: "Roboto";
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  } 
+
+  p{
+  font-size: 22px;
+  }
+
+  nav ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  
+  li a {
+    text-align: center;
+    margin-right: 70px;
+  }
+  
+  li a:hover {
+    background-color:rgb(153, 152, 67);
+  }
+
+  .logo{
+    margin-right: 300px;
+  }
+  
+  /* styling home */
+  #home {
+    background-image: url("./images/backround1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans';
+    color:black;
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
+  
+  /* styling about */
+  #about {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  /* styling orders */
+  #orders {
+    background-image: url("./images/background3.jpeg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans';
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+  }
+  
+  /* styling menu */
+  .menu1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .col-md-3 img {
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  /* styling contact */
+  #contact {
+    background-image: url("./images/background2.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito Sans';
+    color: white;
+    align-content: center;
+  }
+  
+  /* styling footer */
+  footer {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Nunito Sans';
+    border:0px peachpuff;
+    background-color: beige;
+    padding-top: 5px;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
